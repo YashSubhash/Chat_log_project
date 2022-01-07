@@ -1,0 +1,38 @@
+Project Name : Chatlog
+
+1. The chatlog which we created is having a single server where multiple users can add their data (by adding the message in message section).
+
+
+2. The following modules should be installed to work with this application
+
+   express, bodyparser, http, socket.io, mongoose
+
+
+3. And below are the some commands to install those modules in our vs code
+  -->> npm install nodejs
+
+  -->> npm install express
+
+  -->> npm install bodyparser
+
+  -->> npm install http
+
+  -->> npm install socket.io
+
+  -->> npm install mongoose
+
+  -->> node server.js // (to connect with the server)
+ 
+4.When a user connect to the server (localhost:3000)and adds some message in the message section that particular message will display in the same page
+
+5.And the same message will get stored in the collection which we have used
+
+ --> databse used -->> (chat)
+
+ --> collection used -->> (messages)
+6. In this way the message will gets stored in the database.
+
+7. when an another user connect to the same server(same portal) then that user can also see the recent data(message) which is stored already by other users.
+
+8.In that way muktiple user can able to send the name and message to the grop chat application ,that will be able to view all user.
+9.Also user able to view how many user to connected to the server.
